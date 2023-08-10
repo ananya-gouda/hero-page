@@ -48,14 +48,15 @@ ul li a:hover{
     max-height: 30px;
 }
 .mainbody{
-    width: 100%;
-    height:100%;
+    /* width: 100wh; */
+    height:100vh;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .backvideo{
-    min-height: 100% ;
+    min-height: 100vh;
     max-width: 100%;
     position: relative;
     z-index: -1;
@@ -65,14 +66,14 @@ ul li a:hover{
     color: white ;
     justify-content: center;
     position: absolute;
-    top: 195px;
+    top: 5rem;
     font-size: x-large;
     
 }
 .head2{
     color: var(--secondary-color) ;
     position: absolute;
-    top: 251px;
+    top: 9rem;
     font-size: larger;
     padding: 10px;
 }
@@ -84,7 +85,7 @@ ul li a:hover{
     flex-direction: row;
     justify-content: center;
     background-color: black;
-    height: 525px;
+    height: 100vh;
 }
 
 .image{
@@ -143,7 +144,7 @@ height: 90%;
     /* top: 978px; */
     width: 20%;
     height: 25%;
-    bottom: -433px;
+    bottom: -45rem;
     
 }
 /* buy now */
@@ -152,6 +153,7 @@ height: 90%;
 display: flex;
 flex-direction: row;
 background-color: #dedada;
+height: 100vh;
 }
 .buyimg{
     padding: 7rem;
